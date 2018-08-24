@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>
+
+</title>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+</head>
+<body>
+
+
+<div   id="demo">
+
+<input v-model="userinfo" type="text">
+<button type="button">{{userinfo}}</button>
+
+</div>
+<script>
+ new Vue({
+ el:"#demo",
+ data:{
+  userinfo:{$userinfo}
+ }
+
+})
+</script>
+</body>
+</html>
