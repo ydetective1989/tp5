@@ -4,7 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <link rel="stylesheet" href="__ROOT__/static/css/mainpage.css?12">
+  <link rel="stylesheet" href="__ROOT__/static/css/mainpage.css?1">
+  <script type="text/javascript" src="../../../static/jquery-3.2.1.min.js?521"></script>
+
+  <script type="text/javascript" >
+  $('.nav_main').click(function(){
+    console.log(1);
+  })
+
+  </script>
   <title></title>
   <style media="screen">
   @media screen and (max-width: 300px) {
@@ -41,18 +49,76 @@
   <div class="banner">
     <img src="../../../static/images/2.jpg" alt="">
   </div>
-  <div class="ad_title">
-    <div class="ad_content">
+  <div class="ad_wrapper">
+    <ul class="ad_title">
+        <li class="content_img">
+          <!-- <img src="../../../static/images/notic.jpg" alt=""> -->
+        </li>
+        <li class="content_list">服务品牌60个</li>
+        <li class="content_list">覆盖城市50个</li>
+        <li class="content_list">注册工程师700</li>
+        <li class="content_list">承接工单8000单</li>
+        <li class="content_list">完成工单7800单</li>
+    </ul>
+  </div>
 
+  <div class="server_wrapper">
+    <div class="server">
+      <div class="server_title">
+        <div class="big_title">服务品类</div>
+        <div class="small_title">专注智能家居 专业技能服务</div>
+      </div>
+      <div class="server_btn">
+        <div class="btn_wrapper">
+          <div class="btns">
+            <div class="icon_btn btn_active"></div>
+            <div class="icon_title">净水服务</div>
+            <div class="icon_line icon_line_active"></div>
+          </div>
+          <div class="btns">
+            <div class="icon_btn"></div>
+            <div class="icon_title">暖通服务</div>
+            <div class="icon_line"></div>
+          </div>
+          <div class="btns">
+            <div class="icon_btn"></div>
+            <div class="icon_title">智能家居</div>
+            <div class="icon_line"></div>
+          </div>
+        </div>
     </div>
+        <ul class="server_content server_active">
+            <li class="server_show">解决方案</li>
+            <li class="server_show">上门安装</li>
+            <li class="server_show">滤芯更换</li>
+            <li class="server_show">检修保养</li>
+            <li class="server_show">设备清洗</li>
+            <li class="server_show">以旧换新</li>
+        </ul>
+
+        <ul class="server_content">
+            <li class="server_show">解决方案</li>
+            <li class="server_show">上门安装</li>
+            <li class="server_show">2芯更换</li>
+            <li class="server_show">检修保养</li>
+            <li class="server_show">设备清洗</li>
+            <li class="server_show">以旧换新</li>
+        </ul>
+
+        <ul class="server_content">
+            <li class="server_show">解决方案</li>
+            <li class="server_show">上门安装</li>
+            <li class="server_show">滤芯更换</li>
+            <li class="server_show">检修保养</li>
+            <li class="server_show">设2清洗</li>
+            <li class="server_show">以旧换新</li>
+        </ul>
 
 
+      </div>
+    </div>
   </div>
-  <div class="">
-
-  </div>
-
-
+    <script type="text/javascript" src="../../../static/page.js?123"></script>
 </body>
 
 </html>
